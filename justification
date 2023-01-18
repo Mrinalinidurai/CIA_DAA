@@ -1,0 +1,21 @@
+1)choice of language:
+                I have chosen C because it was the language in which I learnt data structures and algorithms so I felt easier to code minimum spanning algorithms in c.
+2)performance comparision:
+   prims:
+     It traverses one node more than one time to get the minimum distance.
+     Prim’s algorithm has a time complexity of O(V2), V being the number of vertices and can be improved up to O(E log V) using Fibonacci heaps.
+     Prim’s algorithm gives connected component as well as it works only on connected graph.
+     prim’s algorithm runs faster in dense graphs.
+     It generates the minimum spanning tree starting from the root vertex. 
+     Applications of prim’s algorithm are Travelling Salesman Problem, Network for roads and Rail tracks connecting all the cities etc.
+     Prim’s algorithm prefer list data structures.
+   kruskals:
+       It starts to build the Minimum Spanning Tree from the vertex carrying minimum weight in the graph.
+       It traverses one node only once.
+       Kruskal’s algorithm’s time complexity is O(E log V), V being the number of vertices.
+       Kruskal’s algorithm can generate forest(disconnected components) at any instant as well as it can work on disconnected components
+       Kruskal’s algorithm runs faster in sparse graphs.
+       It generates the minimum spanning tree starting from the least weighted edge. 
+       
+ dijkstrsa algorithm alone wont work correct in case of directeed graph and negative weights i.e we will not get correct path in this case      
+       
